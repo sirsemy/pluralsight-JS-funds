@@ -1,0 +1,13 @@
+{
+  "name": "pluralsight-JS-funds",
+  "version": "1.0.0",
+  "description": "Learning JS basics from pluralsight",
+  "main": "index.js",
+  "repository": "git@github.com:sirsemy/pluralsight-JS-funds.git",
+  "author": "sirsemy <hajdu1szabolcs@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "date.js": "^0.3.3"
+  }
+}
