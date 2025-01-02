@@ -7,6 +7,7 @@
   "author": "sirsemy <hajdu1szabolcs@gmail.com>",
   "license": "MIT",
   "private": false,
+  "type": "module",
   "dependencies": {
     "date.js": "^0.3.3"
   }
