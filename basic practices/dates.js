@@ -21,3 +21,27 @@ console.log("Hours: ", date5.getHours());
 console.log("Time: ", date5.getTime());
 let date6 = new Date(0);
 console.log(date6.toUTCString());
+
+let dateForm = new Date("2025-01-05T05:05:05-05:00");
+console.log("Date 1: ", dateForm);
+
+console.log("Calendar Date: ", dateForm.toDateString());
+
+// Display a locale-specific date string
+console.log("Locale en-US: ", dateForm.toLocaleDateString('en-US'));
+console.log("Locale en-GB: ", dateForm.toLocaleDateString('en-GB'));
+console.log("Locale ja-JP: ", dateForm.toLocaleDateString('ja-JP'));
+
+// Display just time string
+console.log("Date Time: ", dateForm.toTimeString());
+
+// Display a locale-specific time string
+console.log("Locale en-GB: ", dateForm.toLocaleTimeString('en-GB'));
+console.log("Locale en-US: ", dateForm.toLocaleTimeString('en-US'));
+console.log("Locale ja-JP: ", dateForm.toLocaleTimeString('ja-JP'));
+
+// custom date string
+let options = { dateStyle: "short", timeStyle: "short"};
+console.log('Custom Date: ', dateForm.toLocaleString('en-US', options));
+console.log('Custom Date: ', dateForm.toLocaleString('ar-KW', options));
+
