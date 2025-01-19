@@ -9,6 +9,7 @@
   "private": false,
   "type": "module",
   "dependencies": {
-    "date.js": "^0.3.3"
+    "date.js": "^0.3.3",
+    "prompt-sync": "^4.2.0"
   }
 }
