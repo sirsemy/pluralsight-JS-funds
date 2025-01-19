@@ -4,9 +4,11 @@ services:
   app:
     build: .
     container_name: new-js-begining
+    stdin_open: true
+    tty: true
     # restart: unless-stopped
-    ports:
-      - "3000:3000"
+    # ports:
+    #   - "3000:3000"
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
