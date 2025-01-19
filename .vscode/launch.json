@@ -12,7 +12,8 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/numbers.js"
+            "console": "integratedTerminal",
+            "program": "${file}"
         }
     ]
 }
